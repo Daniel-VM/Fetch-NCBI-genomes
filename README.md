@@ -18,14 +18,17 @@ Example Config_species.txt :
 
 ## PARAMETERS
 
-#### `--input` / `-i`:  A single organism name: --input "Bovine herpesvirus 1". 
-#### `--config` / `-c`: Configuration file containing multiple speces.
-#### `--outdir` / `-o`: Directory to place the results
-#### `--email` / `-e`:  User's email
+`--input` / `-i`:  A single organism name: --input "Bovine herpesvirus 1". 
 
-#### `--help / -h`: Help page
+`--config` / `-c`: Configuration file containing multiple speces.
+
+`--outdir` / `-o`: Directory to place the results.
+
+`--email` / `-e`:  User's email.
+
+#### `--help / -h`: Help page.
 ```console
-python  download_viralGenomes.py --help
+python  fetch_ncbiGenomes.py --help
 ```
 
 ## Usage and output
@@ -37,20 +40,20 @@ Depending on whether you search the genome of a single or multiple organisms (by
 
 The typical command :
 ```console
-python  download_viralGenomes.py -i "Bovine herpesvirus 1" \
-                                 -e uuuu@ddddd.xx \
-                                 -o path_outDir/
+python  fetch_ncbiGenomes.py -i "Bovine herpesvirus 1" \
+                             -e uuuu@ddddd.xx \
+                             -o path_outDir/
 
 ```
->  genomes.fa: Fasta file containig the DNA sequences of the target specie
+>  genomes.fa: Fasta file containig the DNA sequences of the target specie.
 
 1. **Multiple target organisms:**
 
 The typical command:
 ```console
-python  download_viralGenomes.py -i "Bovine herpesvirus 1" \
-                                 -e uuuu@ddddd.xx \
-                                 -o path_outDir/
+python  fetch_ncbiGenomes.py -i "Bovine herpesvirus 1" \
+                             -e uuuu@ddddd.xx \
+                             -o path_outDir/
 
 ```
 
