@@ -31,16 +31,15 @@ import os
 
 # parsing arguments
 parser = argparse.ArgumentParser(description="Fetch NCBI complete genomes...")
-parser.add_argument('-i', '--input', type = ststr, help = 'Configuration file in tab separated format. Column1: specie three-code letter, Column2: specie complete name')
+parser.add_argument('-i', '--input', type = str,  help = 'Specie name between quotes: --input "Bovine herpesvirus 1"')
 parser.add_argument('-o', '--outdir', type = str, help = 'Directory to place the results')
 requiredNamed = parser.add_argument_group('required arguments')
+parser.add_argument('-c', '--config', type = str, help = 'Configuration file in tab separated format. Column1: specie three-code letter, Column2: specie complete name')
 requiredNamed.add_argument('-e', '--email', required = True, type = str, help = 'User email')
-args = vars(parser.parse_args())r, help = 'Specie name between quotes: --input "Bovine herpesvirus 1"')
-parser.add_argument('-c', '--config', type = 
+args = vars(parser.parse_args())
 
 # Set email
 Entrez.email = args['email']
-
 
 # This function performs cross-search between NCBI databases and retrieves the NCBI-nucleotide recird record of complete genome.
 def get_ncbi_records(taxon):
@@ -94,7 +93,7 @@ if args['input'] is not None and args['config'] is not None:
 
 if args['outdir'] is None:
     args['outdir'] = os.getcwd()
-outFile = os.path.join(args['outdir'], 'genomes.fa')
+outFile = os.path.join(args['outdir'], 'genome.fa')
 
 # Here is where the process starts...
 
