@@ -45,7 +45,9 @@ python  fetch_ncbiGenomes.py -i "Bovine herpesvirus 1" \
                              -o path_outDir/
 
 ```
+
 >  genome.fa: Fasta file containig the DNA sequences of the target specie.
+
 
 1. **Multiple target organisms:**
 
