@@ -1,0 +1,6 @@
+taxon_name,taxon_id,records,complete_genome
+Bovine foamy virus,['207343'],['9629644'],True
+Bovine herpesvirus 1,['10320'],['9629818'],True
+Bovine herpesvirus 5,['35244'],['1417992657'],True
+BK polyomavirus,['1891762'],['9627180'],True
+kshv,['37296'],['139472801'],True
