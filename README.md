@@ -64,7 +64,6 @@ python  fetch_ncbiGenomes.py -c conf/species.config \
 ```
 
 > genome.fa: multifasta file.
-
 > report_ncbiGenomes.csv: Dataframe summarizing the process.
 
 
