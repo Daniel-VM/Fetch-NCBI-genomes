@@ -1,6 +1,35 @@
-taxon_name,taxon_id,records,complete_genome
-Bovine foamy virus,['207343'],['9629644'],True
-Bovine herpesvirus 1,['10320'],['9629818'],True
-Bovine herpesvirus 5,['35244'],['1417992657'],True
-BK polyomavirus,['1891762'],['9627180'],True
-kshv,['37296'],['139472801'],True
+taxon_name,taxon_id,accession,accession_title,complete_genome
+Bovine foamy virus,['207343'],NC_001831.1,Bovine foamy virus,True
+Bovine herpesvirus 1,['10320'],NC_001847.1,Bovine herpesvirus 1,True
+Bovine herpesvirus 5,['35244'],NC_005261.3,Bovine herpesvirus 5 strain SV507/99,True
+BK polyomavirus,['1891762'],NC_001538.1,BK polyomavirus,True
+Bovine leukemia virus,['11901'],NC_001414.1,Bovine leukemia virus,True
+Bandicoot papillomatosis carcinomatosis virus type 1,['479058'],NC_010107.1,Bandicoot papillomatosis carcinomatosis virus type 1,True
+Bandicoot papillomatosis carcinomatosis virus type 2,['500654'],NC_010817.1,Bandicoot papillomatosis carcinomatosis virus type 2,True
+Duck enteritis virus,['104388'],NC_013036.1,Anatid herpesvirus 1,True
+Epstein Barr virus,['10376'],NC_009334.1,Human herpesvirus 4,True
+Gorilla gorilla gorilla polyomavirus 1,['928214'],NC_025380.1,Gorilla gorilla gorilla polyomavirus 1 isolate 5766,True
+Herpes B virus,['10325'],NC_004812.1,Macacine herpesvirus 1,True
+Human cytomegalovirus,['10359'],NC_006273.2,Human herpesvirus 5 strain Merlin,True
+Human herpesvirus 6B,['32604'],NC_000898.1,Human herpesvirus 6B,True
+Human immunodeficiency virus 1,['11676'],NC_001802.1,Human immunodeficiency virus 1,True
+Herpes Simplex Virus 1,['10298'],NC_001806.2,Human herpesvirus 1 strain 17,True
+Herpes Simplex Virus 2,['10310'],NC_001798.2,Human herpesvirus 2 strain HG52,True
+Herpesvirus of turkeys,['37108'],NC_002641.1,Meleagrid herpesvirus 1,True
+Infectious laryngotracheitis virus,['10386'],NC_006623.1,Gallid herpesvirus 1,True
+JC polyomavirus,['10632'],NC_001699.1,JC polyomavirus,True
+Murine cytomegalovirus,['10366'],NC_004065.1,Murid herpesvirus 1,True
+Merkel cell polyomavirus,['493803'],NC_010277.2,Merkel cell polyomavirus isolate R17b,True
+Gallid alphaherpesvirus 2,['10390'],NC_002229.3,Gallid herpesvirus 2,True
+Gallid herpesvirus 1 (serotype 2),['36353'],,,False
+Murine herpesvirus 68,['33708'],NC_001826.2,Murine herpesvirus 68 strain WUMS,True
+Pseudorabies virus,['10345'],NC_006151.1,Suid herpesvirus 1,True
+Pan troglodytes verus polyomavirus 2a,['928212'],,,False
+Raccoon polyomavirus,['1219896'],NC_023845.1,Raccoon polyomavirus strain R45,True
+Rhesus lymphocryptovirus,['45455'],NC_006146.1,Macacine herpesvirus 4,True
+Macacine gammaherpesvirus 5,['154334'],,,False
+Simian foamy virus,['11642'],NC_001364.1,Simian foamy virus,True
+Simian virus 40,['1891767'],NC_001669.1,Simian virus 40,True
+Torque teno virus,['68887'],NC_015783.1,Torque teno virus,True
+Herpesvirus saimiri (strain 11),['10383'],,,False
+Human gammaherpesvirus 8,['37296'],NC_009333.1,Human herpesvirus 8 strain GK18,True
